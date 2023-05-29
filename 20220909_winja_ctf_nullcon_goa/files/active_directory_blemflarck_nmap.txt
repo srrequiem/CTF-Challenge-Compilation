@@ -1,0 +1,43 @@
+PORT     STATE    SERVICE       VERSION
+53/tcp   open     domain        Simple DNS Plus
+88/tcp   open     kerberos-sec  Microsoft Windows Kerberos (server time: 2022-08-09 20:05:14Z)
+135/tcp  open     msrpc         Microsoft Windows RPC
+139/tcp  open     netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open     ldap          Microsoft Windows Active Directory LDAP (Domain: vindicators.space0., Site: Default-First-Site-Name)
+445/tcp  open     microsoft-ds?
+3389/tcp open     ms-wbt-server Microsoft Terminal Services
+|_ssl-date: 2022-08-09T20:06:08+00:00; +47s from scanner time.
+| ssl-cert: Subject: commonName=DC01.vindicators.space
+| Not valid before: 2022-08-08T20:00:15
+|_Not valid after:  2023-02-07T20:00:15
+| rdp-ntlm-info:
+|   Target_Name: vindicators
+|   NetBIOS_Domain_Name: vindicators
+|   NetBIOS_Computer_Name: DC01
+|   DNS_Domain_Name: vindicators.space
+|   DNS_Computer_Name: DC01.vindicators.space
+|   DNS_Tree_Name: vindicators.space
+|   Product_Version: 10.0.17763
+|_  System_Time: 2022-08-09T20:05:29+00:00
+5985/tcp open     http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 46s, deviation: 0s, median: 46s
+| smb2-security-mode:
+|   3.1.1:
+|_    Message signing enabled and required
+| smb2-time:
+|   date: 2022-08-09T20:05:33
+|_  start_date: N/A
+
+53/udp open  domain  (generic dns response: SERVFAIL)
+|_dns-recursion: Recursion appears to be enabled
+| fingerprint-strings:
+|   NBTStat:
+|_    CKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-UDP:V=7.92%I=7%D=8/10%Time=62F2BD8A%P=x86_64-pc-linux-gnu%r(NBTS
+SF:tat,32,"\x80\xf0\x80\x82\0\x01\0\0\0\0\0\0\x20CKAAAAAAAAAAAAAAAAAAAAAAA
+SF:AAAAAAA\0\0!\0\x01");

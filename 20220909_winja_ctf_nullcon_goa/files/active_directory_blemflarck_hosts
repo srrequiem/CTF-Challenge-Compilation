@@ -1,0 +1,26 @@
+127.0.0.1   localhost
+172.19.0.2  inmate.winja
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.10.11.111 forge.htb portal.forge.htb
+10.10.11.118 devzat.htb zoo.devzat.htb
+10.10.10.244 dyna.htb dynamicdns.htb
+10.10.11.120 secret.htb
+10.10.11.122 nunchucks.htb reserve.nunchucks.htb
+10.10.76.176 internal.thm
+10.10.141.167 severnaya-station.com
+10.10.11.125 backdoor.htb
+10.10.11.148 routerspace.htb
+10.10.61.163 ip-10-10-61-163.eu-west-1.compute.internal
+
+142.250.217.78 google.com
+142.251.33.69 gmail.com
+40.89.244.232 duckduckgo.com
+34.218.188.252 vindicators.space
+157.240.3.35 facebook.com
+216.58.206.238 youtube.com
+66.211.175.229 ebay.com
+98.136.144.138 yahoo.com
