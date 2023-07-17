@@ -38,10 +38,6 @@
 
 #### Solution
 
-Verificando la sección de `Reference Number` de los paquetes con función tipo Write Multiple Registers.
-
-> Flag: HTB{m0d8u5_724ff1c_15_un3nc2yp73d!@^}
-
 ## Blockchain
 
 ### 2244 Elections
