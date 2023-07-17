@@ -30,6 +30,7 @@ La recopilación de los retos es realizada con el proyecto alterno [CTFScrapper]
 - [20230311_htb_cyberhack_2023](folders/20230311_htb_cyberhack_2023)
 - [20230322_htb_cyber_apocalypse_2023_the_cursed_mission](folders/20230322_htb_cyber_apocalypse_2023_the_cursed_mission)
 - [20230527_defcon_quals_2023](folders/20230527_defcon_quals_2023)
+- [20230714_htb_business_ctf_2023_the_great_escape](folders/20230714_htb_business_ctf_2023_the_great_escape)
 
 ## Soporte
 

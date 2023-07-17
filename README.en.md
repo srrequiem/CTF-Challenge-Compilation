@@ -30,6 +30,7 @@ Challenge gathering is made by the alternate project [CTFScrapper](https://githu
 - [20230311_htb_cyberhack_2023](folders/20230311_htb_cyberhack_2023)
 - [20230322_htb_cyber_apocalypse_2023_the_cursed_mission](folders/20230322_htb_cyber_apocalypse_2023_the_cursed_mission)
 - [20230527_defcon_quals_2023](folders/20230527_defcon_quals_2023)
+- [20230714_htb_business_ctf_2023_the_great_escape](folders/20230714_htb_business_ctf_2023_the_great_escape)
 
 ## Support
 
